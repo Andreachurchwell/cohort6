@@ -1,6 +1,127 @@
 /********************
  * YOUR CODE BELOW! *
  ********************/
+function moreThan5(num) {
+  if (num > 5) {
+    return true
+  } else {
+    return false
+  }
+
+}
+
+function isNewTopScore(num1, num2) {
+  if (num1 > num2) {
+    return true
+  } else {
+    return false
+  }
+}
+
+function isInDanger(num) {
+  if (num >= 60 && num <= 71) {
+    return true
+  } else {
+    return false
+  }
+
+}
+
+function isCoasting(num) {
+if(num >=72 && num <= 83){
+  return true
+}else{
+  return false
+}
+}
+
+function isSucceeding(num){
+if(num >= 84 && num <=92){
+  return true
+}else{
+  return false
+}
+}
+
+function isFailing(num){
+if (num <60){
+  return true
+}else{
+  return false
+}
+}
+
+function isAcing(num){
+if (num > 92){
+  return true
+}else{
+  return false
+}
+}
+
+function isStudent(str){
+  if (str === "student"){
+    return true
+  }else{
+    return false
+  }
+
+}
+
+function isTeacher(str){
+  if (str === "teacher"){
+    return true
+  }else{
+    return false
+  }
+
+}
+
+function isAdmin(str){
+  if (str === "admin"){
+    return true
+  }else{
+    return false
+  }
+
+}
+
+function isElementary(str){
+  if (str === "elementary"){
+    return true
+  }else{
+    return false
+  }
+
+}
+
+function areDifferentPeople(str1,str2){
+if(str1 !== str2){
+  return true
+}else{
+  return false
+}
+}
+
+function isMiddleSchoolTeacher(str, num){
+  if(str === 'teacher' && num <=  8 && num >= 6){
+    return true
+  }else{
+    return false
+  }
+
+}
+
+
+function notAnElementarySchoolAdministrator(str1, str2){
+if (str1 !== `elementary` || str2 !== `admin` || str1 === str2){
+  return true
+}else{
+  return false
+}
+}
+
+
 
 
 
