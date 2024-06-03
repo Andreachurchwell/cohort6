@@ -6,19 +6,19 @@ function fizzy(num) {
 
   for (let i = 1; i <= num; i++) {
       if (i % 3 == 0 && i % 5 == 0) {
-          console.log("IF hit", "i:", i)
+          // console.log("IF hit", "i:", i)
         return 'FizzBuzz'
-          result.push("FizzBuzz")
+          // result.push("FizzBuzz")
       } else if (i % 3 == 0) {
-          console.log("ElseIF hit", "i:", i)
-          result.push("Fizz")
+          // console.log("ElseIF hit", "i:", i)
+          // result.push("Fizz")
           return "Fizz"
 
       } else if (i % 5 == 0) {
-          result.push("Buzz")
+          // result.push("Buzz")
         return 'Buzz'
       } else {
-          result.push("None of the above",i.toString())
+          // result.push("None of the above",i.toString())
          
       }
 

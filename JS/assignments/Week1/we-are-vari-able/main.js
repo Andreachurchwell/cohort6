@@ -1,6 +1,24 @@
 /******************
  * YOUR CODE BELOW *
  ******************/
+let myFirstName = 'Andrea';
+let myLastName = 'Churchwell';
+let myFavoriteCeleb = '';
+let mySentence = 'myFirstName + myLastName + myFavoriteCeleb';
+let myLuckyNum = 11;
+let myAge = 42;
+let myHeight = 5.3;
+let myFavoriteYear = 1981;
+let mySum = 5 + 2317 + 36;
+let myProduct = 232 * 43 / 2 + 4;
+let myHeightAndAge = myAge + myHeight;
+
+
+
+
+
+
+
 
 
 /*********************************************************************************************************************

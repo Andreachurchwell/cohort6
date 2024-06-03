@@ -1,6 +1,43 @@
 /**********************************
  * YOUR CODE GOES HERE THIS TIME! *
  **********************************/
+let x = 3;
+let y = 10;
+let z = 4;
+let greeting = 'hello';
+let firstName = 'Andrea';
+let callStatus = 'ringing';
+
+function double() {
+  x = x * 2;
+  // return result
+}
+
+function triple() {
+  y = y * 3;
+  // return result
+}
+
+function square() {
+  z = z ** 2
+  // return result
+}
+
+function beNice() {
+  greeting = 'hello ' + firstName;
+
+}
+function changeName() {
+  firstName = 'Danger'
+}
+
+function hangUp() {
+  callStatus = 'call ended'
+}
+
+
+
+
 
 
 /*********************************************************************************************************************
@@ -65,7 +102,7 @@ const assert = require('assert');
 describe('double', () => {
   it(`doubles x`, () => {
     double();
-    assert.strictEqual(x, 6); //  x === 6
+    assert.strictEqual(x, 6);
   });
 });
 
