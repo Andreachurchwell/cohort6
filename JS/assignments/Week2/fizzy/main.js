@@ -1,30 +1,23 @@
 /******************************
  * YOUR CODE GOES RIGHT HERE! *
  ******************************/
-function fizzy(num) {
-  let result = []
-
-  for (let i = 1; i <= num; i++) {
-      if (i % 3 == 0 && i % 5 == 0) {
-          // console.log("IF hit", "i:", i)
-        return 'FizzBuzz'
-          // result.push("FizzBuzz")
-      } else if (i % 3 == 0) {
-          // console.log("ElseIF hit", "i:", i)
-          // result.push("Fizz")
-          return "Fizz"
-
-      } else if (i % 5 == 0) {
-          // result.push("Buzz")
-        return 'Buzz'
-      } else {
-          // result.push("None of the above",i.toString())
-         
-      }
 
 
+
+
+
+function fizzy(num){
+  if(num%3==0 && num % 5 ==0){
+    return 'FizzBuzz'
+  }else if(num% 5==0){
+return 'Buzz'
+  }else if(num % 3 == 0){
+    return 'Fizz'
+  }else if (num % 3 != 0 || i % 5 != 0){
+    return num
   }
 }
+
 
 
 
