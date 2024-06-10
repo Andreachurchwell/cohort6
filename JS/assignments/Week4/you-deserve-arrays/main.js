@@ -1,14 +1,8 @@
 /******************
  * YOUR CODE HERE *
- ******************
+//  ******************/
 
 
-
-
- /********************************************
- * CODE DOWN HERE IS FOR INTERNAL USE ONLY. *
- *           PLEASE DON'T TOUCH!            *
- ********************************************/
 
 function getFirstItemFrom(arr) {
   return arr[0]
@@ -50,6 +44,21 @@ function secondCharOfThirdString(arr) {
     return arr[2][1]
   }
 }
+
+
+
+
+
+
+
+
+
+
+ /********************************************
+ * CODE DOWN HERE IS FOR INTERNAL USE ONLY. *
+ *           PLEASE DON'T TOUCH!            *
+ ********************************************/
+
 
 
 
