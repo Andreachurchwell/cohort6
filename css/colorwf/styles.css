@@ -1,0 +1,60 @@
+
+.mainContainer{
+    width: 95%;
+    height: 50vw;
+    background-color: blanchedalmond;
+    display: grid;
+
+    
+}
+.topBar{
+    width: 90%;
+    height: 40%;
+    background-color: mediumorchid;
+
+    
+  
+}
+.sideBar{
+    height: 95%;
+    width: 20%;
+    background-color: pink;
+    
+}
+.insideContainer{
+    width: 50%;
+    height: 95%;
+    background-color: palevioletred;
+   
+
+  
+
+    
+}
+.leftBox{
+    height: 20%;
+    width:20%;
+    background-color: wheat;
+    margin: 8px;
+ 
+}
+.middleBox{
+    height: 20%;
+    width:20%;
+    background-color: wheat;
+    margin: 8px;
+}
+.rightBox{
+    height: 20%;
+    width:20%;
+    background-color:wheat;
+   margin: 8px;
+}
+.lowBar{
+    width: 80%;
+    height: 25%;
+    background-color: plum;
+   
+    
+    
+}

@@ -1,0 +1,201 @@
+body{
+    width: 90vw;
+    height: 90vh;
+    border: solid rgb(136, 0, 255) 2px;
+}
+header{
+    width: 100%;
+    height: 10%;
+    background-color: black;
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+main{
+    width: 100%;
+    height: 85%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+  
+}
+#content{
+    width: 80%;
+    height: 100%;
+    /* border: dotted navy 4px; */
+    display: flex;
+
+}
+#left{
+    width: 60%;
+    /* border: solid red 2px; */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+#right{
+    width: 40%;
+    border: solid red 2px;
+    height: 100%;
+    margin-top: 2%;
+}
+#topLeftBox{
+    width: 95%;
+    height: 50%;
+   margin: 2% 0% 2% 0%;
+   border: solid black 2px;
+ 
+
+
+}
+#bottomLeftBox{
+    width: 95%;
+    height: 50%;
+    
+    
+    border: solid black 1px;
+}
+#bottomLeftBanner{
+    height: 20%;
+    width: 100%;
+    background-color: lightgrey;
+}
+#bottomRightCard{
+    display: flex;
+    justify-content: center;
+}
+#topRightBox{
+    width: 100%;
+    height: 35%;
+    border: solid blue 2px;
+    padding-bottom: 2%;
+}
+#bottomRightBox{
+    width: 100%;
+    height: 65%;
+    border: solid blue 2px;
+}
+#bottomRightBanner{
+    width: 100%;
+    height: 15%;
+    background-color: lightgrey;
+}
+#topLeftBanner{
+    height: 20%;
+    width: 100%;
+    background-color: rgb(64, 102, 240);
+}
+#topLeftCard{
+    height: 80%;
+    width: 100%;
+  
+   display: flex;
+   flex-direction: column;
+
+   
+}
+#topRightBanner{
+width: 100%;
+height: 25%;
+background-color: lightgrey;
+display: flex;
+
+}
+#counter{
+width: 25%;
+background-color: aquamarine;
+height: 100%;
+
+}
+#requests{
+width: 75%;
+height: 100%;
+background-color: blueviolet;
+
+
+}
+#topRightCard{
+height: 75%;
+width:100%;
+/* background-color: aqua; */
+display: flex;
+flex-direction: column;
+
+
+
+}
+.requestBody{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+#profile{
+    width: 20%;
+    height: 100%;
+    border: solid black 1px;
+   
+
+}
+#name{
+    width: 50%;
+    height: 100%;
+    border: solid black 1px;
+    
+}
+.action{
+    width: 15%;
+    height: 100%;
+    border: solid black 2px;
+    
+}
+.gear{
+    height: 30px;
+    width: 30px;
+
+}
+
+#header{
+    background-color: black;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.button{
+    width: 150px;
+    height: 60px;
+    background-color: rgb(92, 63, 63);
+    color: white;
+}
+.button2{
+    width: 150px;
+    height: 60px;
+    background-color: rgb(105, 105, 245);
+}
+.locationI{
+    height: 20px;
+    height: 20px;
+}
+.profileI{
+    width: 55px;
+    height: 55px;
+    border-radius: 55%;
+    border: 1px solid black;
+ 
+}
+.profileIcon{
+    width: 55px;
+    height: 55px;
+    border-radius: 55%;
+    border: 1px solid black;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
