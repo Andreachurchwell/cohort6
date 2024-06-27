@@ -2,6 +2,112 @@
  * YOUR CODE HERE *
  ******************/
 
+const addAll = (arr) => {
+
+
+  let sum = 0
+  for (total of arr) {
+    // console.log('total', total)
+    sum += total
+  }
+  return sum
+}
+
+const countSpaces = function countSpaces(str) {
+
+  let spaces = 0
+  for (item of str) {
+    // console.log(item)
+    if (item == " ") {
+      spaces++
+    }
+  }
+  return spaces
+}
+
+const countTrues = function countTrues(arr) {
+  let trues = 0
+  for (item of arr) {
+    // console.log(item)
+    if (item === true) {
+      trues++
+    }
+  }
+  return trues
+}
+
+const makeFriendly = function makeFriendly(str) {
+  let test = []
+  let split = str.split('')
+  // console.log('split', split)
+  for (item of split) {
+    if (item === '.') {
+      test.push('!')
+    } else {
+      test.push(item)
+    }
+  }
+  // console.log(test)
+  return test.join("")
+}
+
+const cubeAll = function cubeAll(arr) {
+  let cube = []
+  for (item of arr) {
+  
+    cube.push(item ** 3)
+  }
+  return cube
+}
+// console.log(cubeAll(1,2))
+
+const addNoises = function addNoises(arr) {
+  let noise = []
+  for (item of arr) {
+  
+    if (item == "Fido" || item == "Rolph" || item == "Maisie") {
+      noise.push(item + ' says "Woof!"')
+    } else if (item === "Garfield" || item === "Heathcliff") {
+      noise.push(item + ' says "Meow!"')
+    } else if (item === "Barnie" || item === "Sharp Tooth") {
+      noise.push(item + ' says "ROWR."')
+    }
+  }
+  return noise
+}
+
+
+const womenOnly = function womenOnly(arr) {
+  let women = []
+  for (item of arr) {
+    women.filter((item) => item + women)
+    if (item.at(-1) === 'F') {
+      women.push(item)
+    }
+  }
+  return women
+}
+
+
+
+
+const integersOnly = function integersOnly(num) {
+  let intergers = []
+  for (let item of num) {
+   
+    if(item % 1 == 0){
+      intergers.push(item)
+    }
+  }
+  return intergers
+}
+
+
+
+
+
+// console.log("this is the map", arr.map((item) => item * 2))
+// console.log("Filter Method", arr.filter((item) => item % 2 !== 0) )
 
 /*********************************
  * OUR CODE BELOW; DO NOT TOUCH! *
@@ -42,14 +148,14 @@ if (typeof integersOnly === 'undefined') {
 }
 
 const assert = require('assert');
-const {
-  addAll,
-  countSpaces,
-  countTrues,
-  makeFriendly,
-  cubeAll,
-  addNoises,
-} = require('./your-functions'); // Import your functions
+// const {
+//   addAll,
+//   countSpaces,
+//   countTrues,
+//   makeFriendly,
+//   cubeAll,
+//   addNoises,
+// } = require('./your-functions'); // Import your functions
 
 describe('addAll', () => {
   it(`adds all the numbers in the array`, () => {

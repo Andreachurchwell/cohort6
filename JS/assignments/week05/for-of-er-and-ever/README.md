@@ -31,7 +31,7 @@ That one got away from me. Sorry.
 * `addAll` - given an array of numbers, returns the sum of all numbers added together. **HINT:** this is a reduce problem, reducing a collection of values to one value. In this case, a collection of numbers to one total sum.
 * `countSpaces` - given a string, returns the number of characters that are spaces. **HINT:** this is a reduce problem, reducing a collection of values to one value.
 * `countTrues` - given an array of booleans, returns the number of `true` values. **HINT:** this is a reduce problem, reducing a collection of values to one value.
-* `makeFriendly` - given a paragraph, returns a paragraph where each sentence ends with an exclamation point instead of the period it held before. **HINT:** this is a string-building problem, and you'll want to mostly append to the string you'll return each character, except when you hit a period.
+* `makeFriendly` - given a paragraph, returns a paragraph where each sentence ends with an exclamation point instead of the period it held before. **HINT:** this is a string-building problem, and you'll want to mostly append  to the string you'll return each character, except when you hit a period.
 
 
 **Maps**
