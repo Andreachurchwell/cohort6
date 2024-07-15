@@ -41,30 +41,46 @@ const mySelfObj = {}
 
 // Add a `firstName` property and set it to a string.
 
-mySelfObj.firstName = "Andrea C"
+mySelfObj.firstName = "Andrea E";
 // Add a `lastName` property and set it to a string.
 
-mySelfObj.lastName = "Churchwell"
+mySelfObj.lastName = "Churchwell";
 // Add a `fullName` property and set it to the name properties put together with a space string in the middle.
 
-mySelfObj.fullName = firstName + ' ' + lastName
+mySelfObj.fullName = mySelfObj.firstName + ' ' + mySelfObj.lastName
 console.log(mySelfObj)
 // Add an `age` property and set it to a number.
 
 mySelfObj.age = 42
 // Add an address property and set it to an empty array.
 
-mySelfObj.address.push() 
+mySelfObj.address = [] 
 console.log(mySelfObj)
 // Now push three strings into that array.
-
-// address.push()
+mySelfObj.address.push('112 Hwy 142')
+mySelfObj.address.push('Selmer')
+mySelfObj.address.push('Tennessee')
+console.log(mySelfObj)
 
 
 // Part 3 - setting key-value pairs in-line.
 // Now make a new object, but this time we'll pre-populate it, not set it in any lines below it. In other words, the properties should be set the same way I initially set the `myPersevereCodeObj` on line 1. It can be called whatever you want and can have whatever properties you want, as long as they include at least one string value, boolean value, number value, and array of something. The important thing here is: this should all be done within the curly brackets of the object, not below the place where the object is declared.
 
 
+const newObj = {
+  name: 'Louie C',
+  fatCat: true,
+  age: 3,
+  hobbies: ['eating', 'sleeping', 'walking on my moms computer!'],
+  'favorite hobby': 'getting his hair brushed',
+// key with a space
+  '2ndfav': 'snacking',
+  // key starting with a number
+  'has-dash': 'Yes'
+  // key with a dash
 
+}
+console.log(newObj)
 
 // As a stretch goal, go back pre-populate the object with at least one property using a key name that CAN'T be a variable name. That would be anything with a space in it, or a dash, or starting with a number.
+
