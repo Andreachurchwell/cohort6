@@ -28,10 +28,12 @@ myPersevereCodeObj.currentScore = 3;
 
 myPersevereCodeObj.cumulativeScore = 50;
 // Now add your `currentScore` and your `cumulativeScore` and put it back in `cumulativeScore`.
-
+myPersevereCodeObj.cumulativeScore  = myPersevereCodeObj.cumulativeScore + myPersevereCodeObj.currentScore;
+console.log(myPersevereCodeObj)
 
 // Now add a property called `I am exactly this cool` (you'll need bracket notation!) and set it to `soooooo cool`.
-
+myPersevereCodeObj['I am exactly this cool'] = 'soooooo cool';
+console.log(myPersevereCodeObj)
 
 // Part 2 - your own object.
 // Now make a new EMPTY object that represents yourself. You won't put any properties in the curly braces, but just like in part 1, add them in each step below using plain JavaScript statements.
@@ -39,10 +41,10 @@ const mySelfObj = {}
 
 // Add a `firstName` property and set it to a string.
 
-mySelfObj.firstName = ""
+mySelfObj.firstName = "Andrea C"
 // Add a `lastName` property and set it to a string.
 
-mySelfObj.lastName = ""
+mySelfObj.lastName = "Churchwell"
 // Add a `fullName` property and set it to the name properties put together with a space string in the middle.
 
 mySelfObj.fullName = firstName + ' ' + lastName
