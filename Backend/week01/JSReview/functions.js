@@ -76,8 +76,12 @@ const arraySubtraction = function (arr) {
     return result
 };
 
+
+
+
+
 const multiplicationArray = function (arr) {
-    // return result = arr.reduce((acc, currVal) => acc * currVal, 1)
+ 
     let result = 1
     for (let i = 0; i < arr.length; i++) {
         result = result * arr[i]
@@ -85,6 +89,9 @@ const multiplicationArray = function (arr) {
     }
     return result
 };
+
+
+
 
 const divisionArray = function (arr) {
     let result = 1
@@ -94,13 +101,23 @@ const divisionArray = function (arr) {
     return parseFloat(result.toFixed(3))
 };
 
+// to fixed didnt work alone bc its a string at that point
+
+
 const oddArray = function (arr) {
     return arr.filter(num => num % 2 !== 0)
 };
 
+
+
+
 const evenArray = function (arr) {
     return arr.filter(num => num % 2 === 0)
 };
+
+
+
+
 
 module.exports = {
     returnEmptyString,
